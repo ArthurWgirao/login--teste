@@ -28,5 +28,6 @@ jobs:
       # 4️⃣ Rodar os testes Cypress
       - name: Run Cypress tests (Chrome)
         run: npx cypress run --browser chrome --headless
+        timeout-minutes: 10
 
 
