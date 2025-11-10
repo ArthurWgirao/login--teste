@@ -26,6 +26,7 @@ jobs:
         run: npm install
 
       # 4️⃣ Rodar os testes Cypress
-      - name: Run Cypress tests
-        run: npx cypress run --browser edge --headless
+      - name: Run Cypress tests (Chrome)
+        run: npx cypress run --browser chrome --headless
+
 
